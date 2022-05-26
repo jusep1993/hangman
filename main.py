@@ -16,9 +16,9 @@ def word_picker(word_list):
 def initial_msg():
     print(("Hello, this is the game of Hangman Cutre Version. I'm gonna pick a word from the human\n"
            "body or health, in SPANISH, and you have to guess the word in less than 10 rounds. READY?"))
-    time.sleep(1)  # 5s
+    time.sleep(5)  # 5s
     print("I'm thinking the word...")
-    time.sleep(1)  # 2.5s
+    time.sleep(2.5)  # 2.5s
     print("Got it!! Now guess!")
 
 
