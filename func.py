@@ -7,9 +7,9 @@ def word_picker(word_list):
 
 
 def initial_msg():
-    print(("Hello, this is the game of Hangman Cutre Version. I'm gonna pick a word from the human\n"
-           "body or health, in SPANISH, and you have to guess the word in less than 10 rounds. READY?"))
-    time.sleep(5)  # 5s
+    print(("Hello, this is the game of Hangman Cutre Version. I'm gonna pick a word from SPANISH\n"
+           "dictionary and you have to guess the word in less than 15 rounds. READY?"))
+    time.sleep(3)  # 3s
     print("I'm thinking the word...")
     time.sleep(2.5)  # 2.5s
     print("Got it!! Now guess!")
@@ -17,7 +17,7 @@ def initial_msg():
 
 
 def game_loop(word, word_sliced, bad_letters, good_letters):
-    rounds = 10
+    rounds = 15
     while rounds > 0:
         letter_guess = input("Which letter are you gonna choose?: ")
         letter_guess = letter_guess.lower()
